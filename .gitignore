@@ -1,3 +1,7 @@
+# Plugin Cache Files #
+######################
+libraries/timthumb/cache/*
+
 # Compiled source #
 ###################
 *.com

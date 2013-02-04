@@ -1,70 +1,36 @@
 === MobilePress ===
-Contributors: mattgeri, tylerreed
-Tags: mobile, iphone, android, mobilepress, cell phone, cellphone, handset, nokia, motorola, att, sprint, verizon, blackberry, palm, windows ce, opera, operamini, opera mini, google, yahoo, plugin, comments, posts
+Contributors: tylerreed
+Tags: wordpress mobile, mobile themes, mobilepress, mobile plugin, iphone, android, cell phone, cellphone, handset, nokia, motorola, att, sprint, verizon, blackberry, palm, windows ce, opera, operamini, opera mini, google, yahoo, plugin, comments, posts
 Requires at least: 2.3
-Tested up to: 2.8.6
-Stable tag: 1.1.5
+Tested up to: 3.5.1
+Stable tag: 1.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-MobilePress is a WordPress plugin that will render your WordPress blog on mobile
-handsets, with the ability to use customized mobile themes, track analytics and
-serve ads.
-
+MobilePress is a plugin for WordPress that renders a mobile friendly
+version of your WordPress website or blog.
 
 == Description ==
 
-MobilePress is a WordPress plugin that will render your WordPress blog on mobile
-handsets, with the ability to use customized themes. Built into MobilePress is the
-ability to track your mobile sites analytics and serve ads with [Aduity.com](http://aduity.com).
+MobilePress is a plugin for WordPress that renders a mobile friendly
+version of your WordPress website or blog. It allows for custom themes
+and a few other mobile friendly settings.
 
-Integration with [Aduity.com](http://aduity.com) enables you to serve ads from some of the biggest
-mobile ad networks such as Admob, Quattro Wireless, Buzzcity and InMobi. You can
-also serve you own managed ads. You will also be able to track your visitors every
-move with Aduity analytics.
-
-The plugin allows WordPress theme developers to create custom mobile themes for
-MobilePress enabled blogs. Theme designers can create specific iPhone themes or
-generic mobile themes for other mobile devices.
-
-MobilePress is SEO enabled and detects Google, Yahoo and MSN mobile search bots.
-These mobile search engine bots will see the mobile version of your blog and get
-your mobile site indexed in the mobile search results.
-
-For more information and a full set of docs, please visit the official MobilePress
-website at [MobilePress.co.za](http://mobilepress.co.za)
-
+The latest 1.2 release of MobilePress is a rewrite and restructuring of the
+plugin as it moves towards a MobilePress 2.0 release in the near future. The
+idea behind the 1.2 release is to push these changes to the existing base
+and then constantly push new updates with exciting features over the next few weeks.
 
 == Installation ==
 
-Installation instructions available at: [MobilePress.co.za](http://mobilepress.co.za/download/installation)
+1. Upload the "mobilepress" folder into your "/wp-content/plugins/" directory.
+2. Activate the plugin through the "Plugins" menu in WordPress.
 
+== Upgrade Notice ==
 
-== Config & Settings ==
+The MobilePress 1.2 update will delete your existing settings and replace it with
+a new set of default settings, which you can edit through the "MobilePress" menu
+in WordPress.
 
-Once successfully installed, you will be presented with a few options.
-
-= Blog Title =
-
-Changing this will replace the title of your blog when being viewed on a
-mobile device.  So, instead of "My cool blog", you could replace it with
-something like "My mobile blog".  This will not affect your site when being
-viewed on a regular web browser.
-
-= Blog Description =
-
-This is the same as changing your blog title, but will modify your blog's
-description instead.
-
-= Force Mobile Site =
-
-This option will force your site to be rendered as mobile, regardless of where
-it is being viewed from. Regular web browsers will see the mobile version.
-
-
-== Frequently Asked Questions ==
-
-FAQ available at: [MobilePress.co.za](http://mobilepress.co.za/support)
-
-
-== Screenshots ==
-
-Screenshots are available at: [MobilePress.co.za](http://mobilepress.co.za)
+If you have custom themes, please **back up** before updating to MobilePress 1.2.
+Support has been added for a new dedicated MobilePress custom theme directory.
