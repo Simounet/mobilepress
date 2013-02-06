@@ -36,7 +36,7 @@ if ( ! class_exists( 'Mobilepress_render' ) ) {
 			// Apply settings filters
 			add_filter( 'option_posts_per_page', array( &$this, 'mopr_set_page_posts' ) );
 
-			if ( $this->blog_front_page != '' ) {
+			if ( $this->blog_front_page != 'posts' ) {
 				add_filter( 'option_show_on_front', array( &$this, 'mopr_set_front_page' ) );
 				add_filter( 'option_page_on_front', array( &$this, 'mopr_set_front_page_id' ) );
 			}

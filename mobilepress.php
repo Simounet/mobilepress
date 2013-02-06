@@ -3,7 +3,7 @@
 Plugin Name: MobilePress
 Plugin URI: http://mobilepress.co.za
 Description: Turn your WordPress blog into a mobile website/blog.
-Version: 1.2
+Version: 1.2.1
 Author: Tyler Reed
 Author URI: http://tylerreed.com
 License: GPL2
